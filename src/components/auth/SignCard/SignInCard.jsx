@@ -7,7 +7,7 @@ import Image2 from '../../../assets/Image 2.svg';
 const SignInCard = () => {
   const navigate = useNavigate();
   const handleSignUp = () => {
-    navigate('/signupcard');
+    navigate('/auth/signupcard');
 };
 
   return (
