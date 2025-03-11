@@ -1,13 +1,9 @@
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from './components/Home';
-import MyFooter from './components/MyFooter';
-import Navbar from './components/Navbar';
-import Services from './components/Services';
-import RealTime from './components/RealTime';
-import Testimonial from './components/Testimonial';
-import Demo from './components/Demo';
-import HowItWorks from './components/HowItWorks';
+
+import Landing from "./layouts/Landing.jsx";
+
+
 import SignInTD from './components/auth/truckerDrivers/SignInTD';
 import SignUpTD from './components/auth/truckerDrivers/SignUpTD';
 import OtpPageTD from './components/auth/truckerDrivers/OtpPageTD';
@@ -46,18 +42,7 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: (
-        <>
-          <Navbar />
-          <Home />
-          <Services />
-          <HowItWorks />
-          <RealTime />
-          <Testimonial />
-          <Demo />
-          <MyFooter />
-        </>
-      )
+      element: <Landing/>
     },
     // Auth routes
     {

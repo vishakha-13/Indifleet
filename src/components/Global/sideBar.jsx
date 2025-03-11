@@ -4,7 +4,7 @@ import './sideBar.css';  // Import custom CSS for the scrollbar
 
 // assets
 
-import searchIcon from "../../assets/search-icon.svg"
+import searchIcon from "/search-icon.svg"
 
 function SideBar({ trucks }) {
     const [filter, setFilter] = useState('All Shipping');

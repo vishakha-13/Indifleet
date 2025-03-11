@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 // assets
-import logo from "../../assets/logo1.svg";
-import settingIcon from "../../assets/settings-icon.svg";
-import contactIcon from "../../assets/contact-icon.svg";
-import profileIcon from "../../assets/profile-icon.svg";
+import logo from "/logo1.svg";
+import settingIcon from "/settings-icon.svg";
+import contactIcon from "/contact-icon.svg";
+import profileIcon from "/profile-icon.svg";
 
 function TopNav({ options = ['Your Truck', 'Sentiment Analysis'] }) {
   const navigate = useNavigate();

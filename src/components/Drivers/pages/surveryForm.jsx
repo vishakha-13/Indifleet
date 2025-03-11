@@ -1,5 +1,5 @@
 
-import Logo from "../../../assets/logo1.svg"
+import Logo from "/logo1.svg"
 import { useState } from "react";
 
 const DriverSurveyForm = () => {

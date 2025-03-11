@@ -7,7 +7,7 @@ import EngineTemperatureChart from './lineChart2';
 import TirePressureChart from './lineChart3';
 import Speedometer from './speedoMeter';
 import MapComponent from './mapComponent';
-import logo from '../../assets/logo1.png';
+import logo from '/logo1.png';
 
 function MISReport() {
   const navigate = useNavigate(); // Initialize useNavigate hook

@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';  // Import useNavigate for routing
 
 // assets
-import logo from "../../assets/logo1.svg";
-import settingIcon from "../../assets/settings-icon.svg";
-import contactIcon from "../../assets/contact-icon.svg";
-import profileIcon from "../../assets/profile-icon.svg";
+import logo from "/logo1.svg";
+import settingIcon from "/settings-icon.svg";
+import contactIcon from "/contact-icon.svg";
+import profileIcon from "/profile-icon.svg";
 
 function TopNav({ options }) {
   const [activeOption, setActiveOption] = useState(options[0]);

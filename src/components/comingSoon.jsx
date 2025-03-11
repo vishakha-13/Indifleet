@@ -1,4 +1,4 @@
-import Img from "../assets/coming-soon.png"
+import Img from "/coming-soon.png"
 
 function ComingSoon () {
     return (
